@@ -2,7 +2,7 @@
 
 A dark Canvas style with purple highlights
 
-This is an initial theme, and is a work in progress.
+This is an initial theme, and is a work in progress. Contributions are welcomed!
 
 ## Configuration
 

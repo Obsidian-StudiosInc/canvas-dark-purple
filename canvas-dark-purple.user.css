@@ -1,0 +1,232 @@
+/* ==UserStyle==
+@name         Canvas Dark Purple
+@version      1.0.0
+@description  A dark Canvas style with purple highlights
+@namespace    https://github.com/Obsidian-StudiosInc/canvas-dark-purple
+@author       Obsidian-Studios, Inc
+@homepageURL  https://github.com/Obsidian-StudiosInc/canvas-dark-purple
+@supportURL   https://github.com/Obsidian-StudiosInc/canvas-dark-purple/issues
+@updateURL    https://raw.githubusercontent.com/Obsidian-StudiosInc/canvas-dark-purple/master/canvas-dark-purple.user.css
+==/UserStyle== */
+
+@-moz-document domain("canvas.fscj.edu") {
+    :root {
+        /* local variables */
+        --color: #CCC;
+        --background: #222;
+        --background-light: #444;
+        --border: #555;
+        --gray: #9D9D9D;
+        --green: #39AA56;
+        --red: #DB4545;
+        --purple: #9977BB;
+        --yellow: #EDDE3F;
+
+        /* Override variables using local */
+        --dLdjY-arrowColor: var(--gray) !important;
+        --eHiXd-defaultBackground: var(--background-light) !important;
+        --eHiXd-linkColor: var(--purple) !important;
+        --eHiXd-iconColor: var(--gray) !important;
+        --eHiXd-primaryBackground: var(--background-light) !important;
+        --eHiXd-primaryBorderColor: var(--color) !important;
+        --eHiXd-primaryColor: var(--color) !important;
+        --fCrpb-color: var(--gray) !important;
+        --fNHEA-toggleBackgroundOff: var(--background-light) !important;
+        --fNHEA-labelColor: var(--gray) !important;
+        --ic-brand-font-color-dark: var(--gray) !important;
+        --ic-brand-global-nav-ic-icon-svg-fill--active: var(--purple) !important;
+        --ic-brand-global-nav-bgd: var(--purple) !important;
+        --ic-brand-global-nav-logo-bgd: var(--purple) !important;
+        --ic-brand-primary: var(--purple) !important;
+        --ic-brand-font-color-dark-lightened-15: var(--gray) !important;
+        --ic-link-color: var(--purple) !important;
+        --ic-link-color-darkened-10: var(--purple) !important
+    }
+    button.eHiXd_brAJ,
+    button.eHiXd_brAJ[type="button"],
+    button.eHiXd_brAJ[type="reset"],
+    button.eHiXd_brAJ[type="submit"],
+    .btn,
+    .Button,
+    .eHiXd_brAJ,
+    .message-list .date
+    .ui-button
+    {
+        color: var(--purple) !important;
+    }
+    body,
+    table.summary td,
+    table.summary tbody th,   
+    .alert,
+    .closed-for-comments-discussions-v2__wrapper,
+    .collapsed_module,
+    .comments,
+    .conversations .panel,
+    .ctf-header,
+    .ctf-container,
+    .discussion_entry,
+    .discussion-reply-box,
+    .discussions-v2__container-image,
+    .emptyMessage,
+    .event-details,
+    .file-upload-submission,
+    .fLzZc_bGBk,
+    .headerBar,
+    .header-bar,
+    .ic-Dashboard-header__layout,
+    .ic-item-row,
+    .ic-Table.ic-Table--striped tbody tr:nth-child(2n+1),
+    .ig-list .ig-row,
+    .item-group-container,
+    .item-group-condensed,
+    .item-group-expandable,
+    .is-card,
+    .message-list .messages > li,
+    .mini_calendar .day.has_event, /* need to move else where */
+    .module-sequence-footer,
+    .module-sequence-footer-content,
+    .pinned-discussions-v2__wrapper,
+    .question,
+    .question .header,
+    .quiz-submission,
+    .question_editing,
+    .rubric_title,
+    .rubric_container thead th,
+    .summary td,
+    .summary th,
+    .ui-dialog .ui-dialog-titlebar.ui-widget-header,
+    .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header,
+    .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header,
+    .ui-state-active,
+    .ui-state-hover,
+    .ui-tabs .ui-tabs-panel,
+    .ui-widget-content,
+    .unpinned-discussions-v2__wrapper,
+    #breadcrumbs,
+    #calendar-app .fc-month-view .fc-body,
+    #calendar-drag-and-drop-container .fc-month-view .fc-body,
+    #context-list-holder,
+    #minical,
+    #questions.assessing,
+    #questions.assessment_results .question .header,
+    #syllabus tr.date.date_passed > td, #syllabus tr.date.date_passed > th,
+    #undated-event
+    {
+        background-color: var(--background) !important;
+    }
+    a.eHiXd_ddES,
+    input[type="color"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select,
+    textarea,
+    .ac-input-box,
+    .btn,
+    .Button,
+    .dropdown-menu,
+    .eHiXd_ddES,
+    .fc-event.assignment,
+    .fc-event.assignment_override,
+    .fc-unthemed .fc-today,
+/*
+    These may not be ideal as the link colors change with course    
+    .ic-DashboardCard,
+    .ic-DashboardCard__header_content,
+*/
+    .ic-unread-badge__total-count,
+    .list-view > ul > li > a:hover,
+    .list-view > ul > li > a:focus,
+    .list-view > nav > ul > li > a:hover,
+    .list-view > nav > ul > li > a:focus,
+    .mini_calendar .day.today,
+    .ui-button,
+    .ui-widget-content
+    {
+        background-color: var(--background-light) !important;
+    }
+    .btn-success
+    {
+        background-color: var(--green) !important;
+    }
+    .ic-app-header,
+    .ic-app-header__logomark-container,
+    .ic-Super-toggle--on-off .ic-Super-toggle__switch,
+    .ic-unread-badge
+    {
+        background-color: var(--purple) !important;
+    }
+    #right-side .events_list .event-details::after,
+    #right-side .events_list .todo-details::after,
+    #right-side .to-do-list .event-details::after,
+    #right-side .to-do-list .todo-details::after
+    {
+        background: none !important;
+    }
+    body,
+    body[class*="context-course_"] h1,
+    body[class*="context-course_"] h2,
+    body[class*="context-course_"] li,
+    body[class*="context-course_"] p,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    select,
+    textarea,
+    .accessible-toggler,
+    .comment,
+    .comments,
+    .ig-header .name,
+    .fc-event-container a,
+    .mini_calendar .day.today,
+    .MlJlv_ebWM,
+    .question .header .question_points_holder,
+    .ui-dialog .ui-dialog-titlebar.ui-widget-header,
+    .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header,
+    .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header,
+    .ui-state-default,
+    .ui-widget-header .ui-state-default,
+    .ui-widget-content,
+    .uneditable-input,
+    #context_modules .ig-info .title
+    {
+        color: var(--color) !important;
+    }
+    body[class*="context-course_"] h3,
+    .discussion-points,
+    .discussion-pubdate,
+    .discussion-tododate,
+    #minical .fc-widget-content
+    {
+        color: var(--gray) !important;
+    }
+    #minical .fc-widget-content
+    {
+        border: none !important;
+    }
+    .ig-header .name
+    {
+        text-shadow: none !important; 
+    }
+}

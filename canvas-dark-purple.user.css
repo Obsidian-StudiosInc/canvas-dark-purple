@@ -23,6 +23,8 @@
         --yellow: #EDDE3F;
 
         /* Override variables using local */
+        --cjUyb-brandColor: var(--purple) !important;
+        --cnWSA-colorPrimary: var(--purple) !important;
         --dLdjY-arrowColor: var(--gray) !important;
         --dxCCp-color: var(--gray) !important;
         --eHiXd-defaultBackground: var(--background-light) !important;

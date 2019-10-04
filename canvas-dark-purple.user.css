@@ -36,16 +36,18 @@
         --eHiXd-primaryBackground: var(--background-light) !important;
         --eHiXd-primaryBorderColor: var(--color) !important;
         --eHiXd-primaryColor: var(--color) !important;
+        --eQCNs-background: var(--background) !important;
+        --eQCNs-color: var(--color) !important;
         --fCrpb-color: var(--gray) !important;
         --fNHEA-toggleBackgroundOff: var(--background-light) !important;
         --fNHEA-labelColor: var(--gray) !important;
         --fNHEA-toggleBackgroundSuccess: var(--green) !important;
         --ic-brand-font-color-dark: var(--gray) !important;
+        --ic-brand-font-color-dark-lightened-15: var(--gray) !important;
         --ic-brand-global-nav-ic-icon-svg-fill--active: var(--purple) !important;
         --ic-brand-global-nav-bgd: var(--purple) !important;
         --ic-brand-global-nav-logo-bgd: var(--purple) !important;
         --ic-brand-primary: var(--purple) !important;
-        --ic-brand-font-color-dark-lightened-15: var(--gray) !important;
         --ic-link-color: var(--purple) !important;
         --ic-link-color-darkened-10: var(--purple) !important
     }
@@ -98,8 +100,8 @@
     .question .header,
     .quiz-submission,
     .question_editing,
-    .rubric_title,
     .rubric_container thead th,
+    .rubric_title,
     .summary td,
     .summary th,
     .ui-dialog .ui-dialog-titlebar.ui-widget-header,
@@ -117,6 +119,7 @@
     #minical,
     #questions.assessing,
     #questions.assessment_results .question .header,
+    #rubric_holder,
     #syllabus tr.date.date_passed > td, #syllabus tr.date.date_passed > th,
     #undated-event
     {

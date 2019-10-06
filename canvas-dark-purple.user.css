@@ -24,9 +24,16 @@
         --yellow: #EDDE3F;
 
         /* Override variables using local */
+        --cDMBL-background: var(--background) !important;
+        --cDwzl-background: var(--background) !important;
         --cjUyb-brandColor: var(--purple) !important;
         --cnWSA-colorPrimary: var(--purple) !important;
         --dLdjY-arrowColor: var(--gray) !important;
+        --dNoYT-background: var(--background) !important;
+        --dXATK-simpleColor: var(--purple) !important;
+        --dXATK-simpleSelectedBackground: var(--background) !important;
+        --dXATK-simpleSelectedColor: var(--color) !important;
+	--deUoG-background: var(--background) !important;
         --dxCCp-color: var(--gray) !important;
         --eHiXd-defaultBackground: var(--background-light) !important;
         --eHiXd-defaultColor: var(--purple) !important;
@@ -49,8 +56,10 @@
         --ic-brand-global-nav-bgd: var(--purple) !important;
         --ic-brand-global-nav-logo-bgd: var(--purple) !important;
         --ic-brand-primary: var(--purple) !important;
+        --ic-brand-button--primary-bgd-darkened-15: var(--color) !important;
         --ic-link-color: var(--purple) !important;
         --ic-link-color-darkened-10: var(--purple) !important
+        --yyQPt-labelColor: var(--color) !important; /* not working */
     }
     button.eHiXd_brAJ,
     button.eHiXd_brAJ[type="button"],

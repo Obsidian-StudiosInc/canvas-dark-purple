@@ -59,6 +59,9 @@
         --ic-brand-button--primary-bgd-darkened-15: var(--color) !important;
         --ic-link-color: var(--purple) !important;
         --ic-link-color-darkened-10: var(--purple) !important;
+        --MlJlv-iconColor: var(--purple) !important;
+        --MlJlv-textColor: var(--gray) !important;
+        --MlJlv-toggleFocusBorderColor: var(--purple) !important;
         --yyQPt-labelColor: var(--color) !important;
     }
     button.eHiXd_brAJ,

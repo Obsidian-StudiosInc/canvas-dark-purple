@@ -58,8 +58,8 @@
         --ic-brand-primary: var(--purple) !important;
         --ic-brand-button--primary-bgd-darkened-15: var(--color) !important;
         --ic-link-color: var(--purple) !important;
-        --ic-link-color-darkened-10: var(--purple) !important
-        --yyQPt-labelColor: var(--color) !important; /* not working */
+        --ic-link-color-darkened-10: var(--purple) !important;
+        --yyQPt-labelColor: var(--color) !important;
     }
     button.eHiXd_brAJ,
     button.eHiXd_brAJ[type="button"],

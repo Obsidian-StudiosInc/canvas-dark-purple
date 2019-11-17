@@ -187,6 +187,7 @@
     .list-view > nav > ul > li > a:hover,
     .list-view > nav > ul > li > a:focus,
     .mini_calendar .day.today,
+    .new-and-total-badge .total-items,
     .ui-button,
     .ui-widget-content
     {
@@ -258,6 +259,7 @@
     .discussion-points,
     .discussion-pubdate,
     .discussion-tododate,
+    .list-view-a11y-left-menu-flag a.active,
     #minical .fc-widget-content
     {
         color: var(--gray) !important;
@@ -265,6 +267,10 @@
     #minical .fc-widget-content
     {
         border: none !important;
+    }
+    .list-view-a11y-left-menu-flag a.active
+    {
+        border-left-color: var(--gray) !important;
     }
     .ig-header .name
     {

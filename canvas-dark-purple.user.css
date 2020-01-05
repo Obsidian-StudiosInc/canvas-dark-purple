@@ -201,7 +201,8 @@
     .ic-app-header,
     .ic-app-header__logomark-container,
     .ic-Super-toggle--on-off .ic-Super-toggle__switch,
-    .ic-unread-badge
+    .ic-unread-badge,
+    #section-tabs a[class*="active"]
     {
         background-color: var(--purple) !important;
     }

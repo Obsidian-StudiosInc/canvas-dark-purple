@@ -253,7 +253,8 @@
     .ui-widget-header .ui-state-default,
     .ui-widget-content,
     .uneditable-input,
-    #context_modules .ig-info .title
+    #context_modules .ig-info .title,
+    #section-tabs a
     {
         color: var(--color) !important;
     }

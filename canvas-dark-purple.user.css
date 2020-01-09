@@ -73,7 +73,9 @@
     .Button,
     .ctf-message-input button,
     .eHiXd_brAJ,
-    .message-list .date
+    .icon-publish,
+    .message-list .date,
+    .toggle-button svg path,
     .ui-button
     {
         color: var(--purple) !important;

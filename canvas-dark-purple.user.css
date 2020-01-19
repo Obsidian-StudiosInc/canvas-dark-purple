@@ -273,6 +273,10 @@
     {
         border: none !important;
     }
+    .discussion-read-state
+    {
+        border-color: var(--purple) !important;
+    }
     .list-view-a11y-left-menu-flag a.active
     {
         border-left-color: var(--gray) !important;

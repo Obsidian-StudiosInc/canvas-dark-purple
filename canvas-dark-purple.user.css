@@ -213,6 +213,7 @@
     .mini_calendar .day.today,
     .new-and-total-badge .total-items,
     .quiz_comment,
+    .stream_header:hover,
     .ui-button,
     .ui-widget-content
     {

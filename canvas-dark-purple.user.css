@@ -191,6 +191,7 @@
     .list-view > nav > ul > li > a:focus,
     .mini_calendar .day.today,
     .new-and-total-badge .total-items,
+    .quiz_comment,
     .ui-button,
     .ui-widget-content
     {
@@ -214,6 +215,10 @@
     #right-side .to-do-list .todo-details::after
     {
         background: none !important;
+    }
+    .quiz_comment
+    {
+        background-image: none !important;
     }
     body,
     body[class*="context-course_"] h1,

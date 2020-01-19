@@ -31,6 +31,7 @@
         --cjUyb-successColor: var(--green) !important;
         --cnWSA-colorPrimary: var(--purple) !important;
         --dLdjY-arrowColor: var(--gray) !important;
+        --dIgyp-background: var(--background) !important;
         --dNoYT-background: var(--background) !important;
         --dXATK-simpleColor: var(--purple) !important;
         --dXATK-simpleSelectedBackground: var(--background) !important;
@@ -40,6 +41,8 @@
         --eHiXd-defaultBackground: var(--background-light) !important;
         --eHiXd-defaultColor: var(--purple) !important;
         --eHiXd-focusBorder: var(--purple) !important;
+        --eHiXd-lightBackground: var(--background-light) !important;
+        --eHiXd-lightColor: var(--color) !important;
         --eHiXd-linkColor: var(--purple) !important;
         --eHiXd-iconColor: var(--gray) !important;
         --eHiXd-iconHoverColor: var(--purple) !important;
@@ -51,6 +54,8 @@
         --eQCNs-background: var(--background) !important;
         --eQCNs-color: var(--color) !important;
         --fCrpb-color: var(--gray) !important;
+        --fFVtz-background: var(--background) !important;
+        --fFVtz-color: var(--color) !important;
         --fNHEA-toggleBackgroundOff: var(--background-light) !important;
         --fNHEA-labelColor: var(--gray) !important;
         --fNHEA-toggleBackgroundSuccess: var(--green) !important;
@@ -72,6 +77,8 @@
         --MlJlv-iconColor: var(--purple) !important;
         --MlJlv-textColor: var(--gray) !important;
         --MlJlv-toggleFocusBorderColor: var(--purple) !important;
+        --voGQb-background: var(--background) !important;
+        --voGQb-color: var(--color) !important;
         --yyQPt-labelColor: var(--color) !important;
     }
     button.eHiXd_brAJ,

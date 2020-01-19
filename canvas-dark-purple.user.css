@@ -24,6 +24,7 @@
         --yellow: #EDDE3F;
 
         /* Override variables using local */
+        --cAqHo-background: var(--background-light) !important;
         --cDMBL-background: var(--background) !important;
         --cDwzl-background: var(--background) !important;
         --cjUyb-brandColor: var(--purple) !important;
@@ -45,12 +46,16 @@
         --eHiXd-primaryBackground: var(--background-light) !important;
         --eHiXd-primaryBorderColor: var(--color) !important;
         --eHiXd-primaryColor: var(--color) !important;
+        --eoNrR-background: var(--background-light) !important;
+        --eoNrR-color: var(--color) !important;
         --eQCNs-background: var(--background) !important;
         --eQCNs-color: var(--color) !important;
         --fCrpb-color: var(--gray) !important;
         --fNHEA-toggleBackgroundOff: var(--background-light) !important;
         --fNHEA-labelColor: var(--gray) !important;
         --fNHEA-toggleBackgroundSuccess: var(--green) !important;
+        --fOyUs-backgroundPrimary: var(--background-light) !important;
+        --fOyUs-color: var(--color) !important;
         --ic-brand-font-color-dark: var(--gray) !important;
         --ic-brand-font-color-dark-lightened-15: var(--gray) !important;
         --ic-brand-global-nav-ic-icon-svg-fill--active: var(--purple) !important;
@@ -60,6 +65,10 @@
         --ic-brand-button--primary-bgd-darkened-15: var(--color) !important;
         --ic-link-color: var(--purple) !important;
         --ic-link-color-darkened-10: var(--purple) !important;
+        --sJGfW-activeBackground: var(--purple) !important;
+        --sJGfW-background: var(--background-light) !important;
+        --sJGfW-labelColor: var(--color) !important;
+        --sJGfW-iconColor: var(--color) !important;
         --MlJlv-iconColor: var(--purple) !important;
         --MlJlv-textColor: var(--gray) !important;
         --MlJlv-toggleFocusBorderColor: var(--purple) !important;

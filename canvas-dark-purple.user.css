@@ -10,7 +10,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("chat.instructure.com"),
-	       domain("canvas.fscj.edu") {
+	       domain("canvas.fscj.edu"),
+	       domain("canvas.unf.edu") {
     :root {
         /* local variables */
         --color: #CCC;

@@ -190,6 +190,8 @@
     .ac-input-box,
     .btn,
     .Button,
+    .course-list-table-row:hover,
+    .course-list-unpublished-course-row,
     .ctf-date-header h2,
     .ctf-message-input .ctf-message-input__wrapper,
     .ctf-message-input button,

@@ -206,6 +206,10 @@
     .ic-DashboardCard,
     .ic-DashboardCard__header_content,
 */
+    .ic-flash-info,
+    .ic-flash-success,
+    .ic-flash-warning,
+    .ic-flash-error,
     .ic-notification__content,
     .ic-unread-badge__total-count,
     .ic-Table.ic-Table--hover-row tbody tr:hover,

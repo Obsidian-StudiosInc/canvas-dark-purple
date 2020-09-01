@@ -166,7 +166,8 @@
     #questions.assessment_results .question .header,
     #rubric_holder,
     #syllabus tr.date.date_passed > td, #syllabus tr.date.date_passed > th,
-    #undated-event
+    #undated-event,
+    #undated-events .event
     {
         background-color: var(--background) !important;
     }

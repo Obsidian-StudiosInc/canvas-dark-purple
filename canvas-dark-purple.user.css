@@ -186,6 +186,7 @@
     input[type="time"],
     input[type="url"],
     input[type="week"],
+    pre,
     select,
     textarea,
     .ac-input-box,
@@ -229,7 +230,11 @@
     .ui-button,
     .ui-widget-content,
     #calendar-app .fc-event,
-    #calendar-drag-and-drop-container .fc-event
+    #calendar-drag-and-drop-container .fc-event,
+    #syllabus tr.date.related td,
+    #syllabus tr.date.related th,
+    #syllabus tr.date.selected td,
+    #syllabus tr.date.selected th
     {
         background-color: var(--background-light) !important;
     }
@@ -275,6 +280,7 @@
     input[type="search"],
     input[type="tel"],
     input[type="color"],
+    pre,
     select,
     textarea,
     .accessible-toggler,

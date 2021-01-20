@@ -333,4 +333,11 @@
     {
         text-shadow: none !important; 
     }
+
+    .equation_image
+    {
+        -moz-filter: invert(100%);
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
 }

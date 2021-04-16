@@ -12,6 +12,9 @@
 @-moz-document domain("chat.instructure.com"),
 	       domain("canvas.fscj.edu"),
 	       domain("canvas.unf.edu") {
+
+@media only screen {
+
     :root {
         /* local variables */
         --color: #CCC;
@@ -340,4 +343,5 @@
         -webkit-filter: invert(100%);
         filter: invert(100%);
     }
+}
 }
